@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'convexset:match-extensions',
-	version: '0.1.0',
+	version: '0.1.1',
 	summary: 'Extensions for Match from the check package',
 	git: 'https://github.com/convexset/meteor-match-extensions',
 	documentation: '../../README.md'
@@ -8,7 +8,7 @@ Package.describe({
 
 Package.onUse(function(api) {
 	api.versionsFrom('1.2.0.2');
-	api.use(['ecmascript', 'underscore', 'check', 'convexset:package-utils@0.1.0']);
+	api.use(['ecmascript', 'underscore', 'check', 'convexset:package-utils@0.1.3']);
 	api.addFiles(['match-extensions.js']);
 });
 
