@@ -1,6 +1,13 @@
 /* global check: true */
 /* global Match: true */
 
+import { checkNpmVersions } from 'meteor/tmeasday:check-npm-versions';
+checkNpmVersions({
+  'underscore' : '^1.8.3',
+});
+const _ = require('underscore');
+
+
 _.extend(Match, {
     isArrayOf: function isArrayOf(typeInfo) {
         return Match.Where(function isArrayOfType(arr) {
