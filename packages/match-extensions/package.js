@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'convexset:match-extensions',
-	version: '0.1.1_4',
+	version: '0.1.1_5',
 	summary: 'Extensions for Match from the check package',
 	git: 'https://github.com/convexset/meteor-match-extensions',
 	documentation: '../../README.md'
@@ -12,6 +12,9 @@ Package.onUse(function(api) {
 		'ecmascript',
 		'check',
 		'tmeasday:check-npm-versions@0.3.1'
+	]);
+	api.imply([
+		'check'
 	]);
 	api.addFiles(['match-extensions.js']);
 });
