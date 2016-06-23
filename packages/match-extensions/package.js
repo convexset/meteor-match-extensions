@@ -1,4 +1,5 @@
 Package.describe({
+	// [validatis:stack]
 	name: 'convexset:match-extensions',
 	version: '0.1.1_5',
 	summary: 'Extensions for Match from the check package',
