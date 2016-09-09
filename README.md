@@ -48,11 +48,12 @@ it is because you or something you are using is using Meteor's cruddy old `under
 
 #### Numerical Checks (Self-explanatory)
 
-`Match.isPositive`
-`Match.isNonPositive`
-`Match.isNegative`
-`Match.isNonNegative`
-`Match.isPositiveInteger`
-`Match.isNonPositiveInteger`
-`Match.isNegativeInteger`
-`Match.isNonNegativeInteger`
+ - `Match.isInteger` (because `Match.Integer` does not play well with `SimpleSchema`)
+ - `Match.isPositive`
+ - `Match.isNonPositive`
+ - `Match.isNegative`
+ - `Match.isNonNegative`
+ - `Match.isPositiveInteger`
+ - `Match.isNonPositiveInteger`
+ - `Match.isNegativeInteger`
+ - `Match.isNonNegativeInteger`

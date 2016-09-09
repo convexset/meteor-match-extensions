@@ -47,6 +47,10 @@ _.extend(Match, {
         check(x, Number);
         return x >= 0;
     }),
+    isInteger: Match.Where(function(x) {
+        check(x, Match.Integer);
+        return true;
+    }),
     isPositiveInteger: Match.Where(function(x) {
         check(x, Match.Integer);
         return x > 0;

@@ -1,7 +1,7 @@
 Package.describe({
 	// [validatis:stack]
 	name: 'convexset:match-extensions',
-	version: '0.1.1_5',
+	version: '0.1.1_6',
 	summary: 'Extensions for Match from the check package',
 	git: 'https://github.com/convexset/meteor-match-extensions',
 	documentation: '../../README.md'
